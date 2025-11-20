@@ -47,11 +47,10 @@ fun DataApp(
                     }
                 )
             }
-            composable (route = Navigasi.Detail.name){
+            composable (route = Navigasi.Detail.name) {
                 TampilData(
-                    onBackBtnClick = {
-                        cancelAndBackToFormulirku(navController)
-                    }
+                    statusUiSiswa = uiState.value,
+                    onBackBtnClick = { cancelAndBackToFormulirku(navController) }
                 )
             }
         }
