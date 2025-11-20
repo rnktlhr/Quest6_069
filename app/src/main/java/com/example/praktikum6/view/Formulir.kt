@@ -38,7 +38,7 @@ import com.example.praktikum6.R
 
 @Composable
 fun FormIsian(
-    jenisK: List<String>,
+    PilihanJK: List<String>,
     onSubmitBtnClick : (MutableList<String>) -> Unit,
     modifier: Modifier = Modifier
 ) {
@@ -90,7 +90,7 @@ fun FormIsian(
                     .width(250.dp), thickness = Thickness, color = Color.Red
             )
             Row {
-                jenisK.forEach { item ->
+                PilihanJK.forEach { item ->
                     Row(verticalAlignment = Alignment.CenterVertically) {
                         RadioButton(
                             selected = false,
