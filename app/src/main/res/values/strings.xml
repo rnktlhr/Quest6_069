@@ -8,4 +8,5 @@
     <string name="gender">Jenis Kelamin</string>
     <string name="alamat">Alamat</string>
     <string name="detail">Data Siswa</string>
+    <string name="home">Form Isian</string>
 </resources>
